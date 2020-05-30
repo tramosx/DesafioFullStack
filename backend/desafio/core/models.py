@@ -11,4 +11,4 @@ class Reuniao(models.Model):
     funcionarios = models.ManyToManyField(User)
 
     def __str__(self):
-        return '%s %s' % (self.nome, self.data)
+        return '%s %s' % (self.nome, self.data) 
