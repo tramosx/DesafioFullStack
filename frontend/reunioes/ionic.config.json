@@ -1,0 +1,7 @@
+{
+  "name": "reunioes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
