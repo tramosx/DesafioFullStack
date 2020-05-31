@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_auth',
     'corsheaders',
+    'rest_framework.authtoken',
+
 ]
 
 MIDDLEWARE = [
@@ -51,6 +53,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+
 ]
 
 CORS_ORIGIN_WHITELIST = (
@@ -126,3 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REST_AUTH_SERIALIZERS = {
+    'TOKEN_SERIALIZER': 'core.serializers.MyCustomTokenSerializer',
+}
