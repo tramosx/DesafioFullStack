@@ -12,7 +12,8 @@ def lista_reunioes(request, id):
             reuniaoObj = {}
             reuniaoObj['id_reuniao'] = reuniao.id,
             reuniaoObj['nome_reuniao'] = reuniao.nome,
-            reuniaoObj['data_reuniao'] = reuniao.data.strftime('%d/%m/%Y às %H:%M')
+            reuniaoObj['data'] = reuniao.data.strftime('%d/%m/%Y')
+            reuniaoObj['hora'] = reuniao.data.strftime('%H:%M')
 
             reuniaoArray.append(reuniaoObj)
 
