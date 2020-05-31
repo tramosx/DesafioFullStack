@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+
+#tabela {
+  margin: 25px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+}
