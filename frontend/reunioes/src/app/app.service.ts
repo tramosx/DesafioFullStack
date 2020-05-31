@@ -23,6 +23,7 @@ export class AppService {
 
 
   login(username: String, password: String) {
+    console.log("login");
     return this.http.post(this.apiRoot.concat('rest-auth/login/'),
       {username: username, password: password}
     ).pipe(
