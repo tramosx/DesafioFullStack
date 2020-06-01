@@ -41,7 +41,7 @@ Dentro do diretório [desafio](/backend/desafio/) instale as dependências do pr
 pip install -r requirements.txt
 ```
 
-O backend está configurado por padrão para utilizar o postgresql, caso queira utilizar o sqlite, descomente essa linha de código:
+O backend está configurado por padrão para utilizar o postgresql, caso queira utilizar o sqlite, descomente essa linha de código no arquivo [settings.py](/backend/desafio/desafio/settings.py)
 
 ```
     # 'default': {
