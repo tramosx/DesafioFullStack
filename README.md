@@ -61,4 +61,8 @@ Para instalar o ionic basta executar no terminal:
 npm install -g @ionic/cli native-run cordova-res
 ```
 
+Para executar o app dentro do diretório frontend/reunioes:
+```
+ionic serve
+```
 
