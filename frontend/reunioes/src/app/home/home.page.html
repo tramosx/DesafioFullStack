@@ -33,6 +33,7 @@
     <table id="tabela" class="table table-bordered table-hover">
       <thead>
         <tr>
+          <th>Foto</th>
           <th>Nome</th>
           <th>Data</th>
           <th>Hora</th>
@@ -40,6 +41,8 @@
       </thead>
       <tbody>
         <tr *ngFor="let item of datas">
+          <!-- <td>{{ item.foto }}</td> -->
+          <td> <img src="{{item.foto}}" ></td>
           <td>{{ item.nome_reuniao }}</td>
           <td>{{ item.data }}</td>
           <td>{{ item.hora }}</td>
@@ -49,6 +52,6 @@
   </div>
 
   {{ error?.message }}
-
+  
 
 </ion-content>
