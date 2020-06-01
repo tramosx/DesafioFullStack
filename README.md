@@ -23,7 +23,7 @@ para o cadastro de reuniões.
 ### Backend
 Caso opte, crie um ambiente virtual chamado venv na raiz do projeto:
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 Para ativar o venv:
 
@@ -82,12 +82,14 @@ sudo apt install nodejs
 Para instalar o ionic basta executar no terminal:
 ```
 npm install -g @ionic/cli native-run cordova-res
+npm install --save-dev @angular-devkit/build-angular
 ```
 
 Para executar o app dentro do diretório [reuniões](/frontend/reunioes):
 ```
 ionic serve
 ```
+
 
 # Aplicativo
 ![](/imgs/login.png)
