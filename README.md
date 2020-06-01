@@ -36,7 +36,7 @@ venv\Scripts\activate,
 source venv/bin/activate
 ```
 
-Dentro do diretório [/backend/desafio/](/backend/desafio/) instale as dependências do projeto com pip:
+Dentro do diretório [../desafio/](/backend/desafio/) instale as dependências do projeto com pip:
 ```
 pip install -r requirements.txt
 ```
@@ -61,7 +61,7 @@ Para instalar o ionic basta executar no terminal:
 npm install -g @ionic/cli native-run cordova-res
 ```
 
-Para executar o app dentro do diretório frontend/reunioes:
+Para executar o app dentro do diretório [reuniões](/frontend/reunioes):
 ```
 ionic serve
 ```
