@@ -41,6 +41,16 @@ Dentro do diretório [desafio](/backend/desafio/) instale as dependências do pr
 pip install -r requirements.txt
 ```
 
+O backend está configurado por padrão para utilizar o postgresql, caso queira utilizar o sqlite, descomente essa linha de código:
+
+```
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
+```
+
+
 Por fim, para iniciar o servidor:
 ```
 python manage.py runserver
