@@ -66,3 +66,6 @@ Para executar o app dentro do diretório frontend/reunioes:
 ionic serve
 ```
 
+# Aplicativo
+![](/imgs/login.png)
+![](/imgs/reunioes.png)
