@@ -134,3 +134,8 @@ STATIC_URL = '/static/'
 REST_AUTH_SERIALIZERS = {
     'TOKEN_SERIALIZER': 'core.serializers.MyCustomTokenSerializer',
 }
+
+
+MEDIA_ROOT = '/home/thiagoneri/desafio_tecnico/DesafioFullStack/backend/desafio/media/'
+
+MEDIA_URL = '/media/'
