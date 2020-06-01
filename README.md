@@ -36,7 +36,7 @@ venv\Scripts\activate,
 source venv/bin/activate
 ```
 
-Dentro do diretrio backend/desafio/ instale as dependências do projeto com pip:
+Dentro do diretório [/backend/desafio/](/backend/desafio/) instale as dependências do projeto com pip:
 ```
 pip install -r requirements.txt
 ```
