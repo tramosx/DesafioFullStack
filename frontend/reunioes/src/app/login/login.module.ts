@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { LoginPage } from './login.page';
-import { NativeStorage } from '@ionic-native/native-storage';
-
 import { LoginRoutingModule } from './login-routing.module';
 
 
