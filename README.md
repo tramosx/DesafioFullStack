@@ -41,17 +41,17 @@ Dentro do diretório [desafio](/backend/desafio/) instale as dependências do pr
 pip install -r requirements.txt
 ```
 
-Dentro do diretório [desafio](/backend/desafio) é necessário criar um superusuário para acessar o django-admin para posteriormente cadastrar novos usuários e reuniões, para isso execute o seguinte comando:
-
-```
-python manage.py createsuperuser
-```
-
 Para migração do model Reunião é necessário executar os seguintes comandos dentro do diretório [desafio](/backend/desafio):
 ```
 python manage.py makemigrations
 
 python manage.py migrate
+```
+
+Dentro do diretório [desafio](/backend/desafio) é necessário criar um superusuário para acessar o django-admin para posteriormente cadastrar novos usuários e reuniões, para isso execute o seguinte comando:
+
+```
+python manage.py createsuperuser
 ```
 
 O backend está configurado por padrão para utilizar o postgresql, caso queira utilizar o sqlite, descomente essa linha de código no arquivo [settings.py](/backend/desafio/desafio/settings.py)
